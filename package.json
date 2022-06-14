@@ -1,0 +1,23 @@
+{
+  "name": "hw4",
+  "version": "1.0.0",
+  "description": "HW4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch styles/scss/index.scss:styles/public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElizavetaNova/SASS.git"
+  },
+  "author": "Elizaveta Fakhrutdinova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElizavetaNova/SASS/issues"
+  },
+  "homepage": "https://github.com/ElizavetaNova/SASS#readme",
+  "dependencies": {
+    "sass": "^1.52.3"
+  }
+}

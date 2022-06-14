@@ -1,0 +1,579 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Mulish;
+  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: DMSans;
+  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: DMSans;
+  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: DMSans;
+  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: DMSans;
+  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+}
+.main-landing__title {
+  font-family: DMSans;
+  color: #19191B;
+}
+.main-landing__text {
+  font-family: Mulish;
+  color: #696871;
+}
+.main-landing__description {
+  font-family: DMSans;
+  color: #696871;
+}
+.main-landing h1 {
+  font-size: 80px;
+  line-height: 77px;
+}
+.main-landing h2 {
+  font-size: 60px;
+  line-height: 70px;
+}
+.main-landing__description {
+  font-size: 18px;
+  line-height: 28px;
+}
+.main-landing__text {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.landing-buttons__GS {
+  font-family: DMSans;
+  color: #fff;
+  font-size: 17px;
+}
+.landing-buttons__btn {
+  font-family: DMSans;
+  color: #5454D4;
+  font-size: 17px;
+}
+.landing-buttons__radio-btn {
+  font-family: DMSans;
+}
+
+.main-sale__title {
+  font-family: DMSans;
+  color: #19191B;
+}
+.main-sale__text {
+  font-family: Mulish;
+  color: #696871;
+}
+.main-sale__description {
+  font-family: DMSans;
+  color: #696871;
+}
+.main-sale h1 {
+  font-size: 80px;
+  line-height: 77px;
+}
+.main-sale h2 {
+  font-size: 60px;
+  line-height: 70px;
+}
+.main-sale__description {
+  font-size: 18px;
+  line-height: 28px;
+}
+.main-sale__text {
+  font-size: 20px;
+  line-height: 30px;
+}
+.main-sale__GS {
+  font-family: DMSans;
+  color: #fff;
+  font-size: 17px;
+}
+.main-sale__btn {
+  font-family: DMSans;
+  color: #5454D4;
+  font-size: 17px;
+}
+.main-sale__radio-btn {
+  font-family: DMSans;
+}
+.main-sale .tarriffs-block__title {
+  font-family: DMSans;
+  color: #19191B;
+}
+.main-sale .tarriffs-block__text {
+  font-family: Mulish;
+  color: #696871;
+}
+.main-sale .tarriffs-block__description {
+  font-family: DMSans;
+  color: #696871;
+}
+.main-sale .tarriffs-block__GS {
+  font-family: DMSans;
+  color: #fff;
+  font-size: 17px;
+}
+.main-sale .tarriffs-block__btn {
+  font-family: DMSans;
+  color: #5454D4;
+  font-size: 17px;
+}
+.main-sale .tarriffs-block__radio-btn {
+  font-family: DMSans;
+}
+.main-sale .tarriffs-block h1 {
+  font-size: 80px;
+  line-height: 77px;
+}
+.main-sale .tarriffs-block h2 {
+  font-size: 60px;
+  line-height: 70px;
+}
+.main-sale .tarriffs-block__description {
+  font-size: 18px;
+  line-height: 28px;
+}
+.main-sale .tarriffs-block__text {
+  font-size: 20px;
+  line-height: 30px;
+}
+.main-sale .tarriffs-block__text {
+  font-size: 17px;
+  line-height: 50px;
+}
+.main-sale .tarriffs-block__title-text {
+  font-size: 30px;
+}
+.main-sale .tarriffs-block h2 {
+  line-height: 56px;
+}
+
+@font-face {
+  font-family: Mulish;
+  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: DMSans;
+  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: DMSans;
+  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: DMSans;
+  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+}
+.main-landing__title {
+  font-family: DMSans;
+  color: #19191B;
+}
+.main-landing__text {
+  font-family: Mulish;
+  color: #696871;
+}
+.main-landing__description {
+  font-family: DMSans;
+  color: #696871;
+}
+.main-landing h1 {
+  font-size: 80px;
+  line-height: 77px;
+}
+.main-landing h2 {
+  font-size: 60px;
+  line-height: 70px;
+}
+.main-landing__description {
+  font-size: 18px;
+  line-height: 28px;
+}
+.main-landing__text {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.landing-buttons__GS {
+  font-family: DMSans;
+  color: #fff;
+  font-size: 17px;
+}
+.landing-buttons__btn {
+  font-family: DMSans;
+  color: #5454D4;
+  font-size: 17px;
+}
+.landing-buttons__radio-btn {
+  font-family: DMSans;
+}
+
+.main-sale__title {
+  font-family: DMSans;
+  color: #19191B;
+}
+.main-sale__text {
+  font-family: Mulish;
+  color: #696871;
+}
+.main-sale__description {
+  font-family: DMSans;
+  color: #696871;
+}
+.main-sale h1 {
+  font-size: 80px;
+  line-height: 77px;
+}
+.main-sale h2 {
+  font-size: 60px;
+  line-height: 70px;
+}
+.main-sale__description {
+  font-size: 18px;
+  line-height: 28px;
+}
+.main-sale__text {
+  font-size: 20px;
+  line-height: 30px;
+}
+.main-sale__GS {
+  font-family: DMSans;
+  color: #fff;
+  font-size: 17px;
+}
+.main-sale__btn {
+  font-family: DMSans;
+  color: #5454D4;
+  font-size: 17px;
+}
+.main-sale__radio-btn {
+  font-family: DMSans;
+}
+.main-sale .tarriffs-block__title {
+  font-family: DMSans;
+  color: #19191B;
+}
+.main-sale .tarriffs-block__text {
+  font-family: Mulish;
+  color: #696871;
+}
+.main-sale .tarriffs-block__description {
+  font-family: DMSans;
+  color: #696871;
+}
+.main-sale .tarriffs-block__GS {
+  font-family: DMSans;
+  color: #fff;
+  font-size: 17px;
+}
+.main-sale .tarriffs-block__btn {
+  font-family: DMSans;
+  color: #5454D4;
+  font-size: 17px;
+}
+.main-sale .tarriffs-block__radio-btn {
+  font-family: DMSans;
+}
+.main-sale .tarriffs-block h1 {
+  font-size: 80px;
+  line-height: 77px;
+}
+.main-sale .tarriffs-block h2 {
+  font-size: 60px;
+  line-height: 70px;
+}
+.main-sale .tarriffs-block__description {
+  font-size: 18px;
+  line-height: 28px;
+}
+.main-sale .tarriffs-block__text {
+  font-size: 20px;
+  line-height: 30px;
+}
+.main-sale .tarriffs-block__text {
+  font-size: 17px;
+  line-height: 50px;
+}
+.main-sale .tarriffs-block__title-text {
+  font-size: 30px;
+}
+.main-sale .tarriffs-block h2 {
+  line-height: 56px;
+}
+
+.main-landing {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 60px 0;
+}
+.main-landing__img {
+  height: 644px;
+  width: 580px;
+}
+.main-landing__title {
+  width: 462px;
+  height: 231px;
+  margin-bottom: 30px;
+}
+.main-landing__text {
+  width: 462px;
+  height: 90px;
+  margin-bottom: 50px;
+}
+.main-landing__buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-landing .landing-buttons__GS {
+  margin-right: 40px;
+  border-radius: 10px;
+  background: #5454D4;
+  width: 211px;
+  height: 60px;
+}
+.main-landing .landing-buttons__GS:hover {
+  transform: all ease 0.7s;
+  background: #6f0ece;
+}
+.main-landing .landing-buttons__arrow {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border: 1px solid #E7E7E7;
+  border-radius: 60px;
+}
+.main-landing .landing-buttons__arrow:hover {
+  border: 2px solid #19191B;
+}
+
+@font-face {
+  font-family: Mulish;
+  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: DMSans;
+  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+}
+.main-sale__abstract {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.main-sale__title {
+  width: 523px;
+  height: 140px;
+  margin-right: 250px;
+}
+.main-sale__radio-btn {
+  display: inline;
+  overflow: hidden;
+}
+.main-sale__radio-btn input[type=radio] {
+  display: none;
+}
+.main-sale__radio-btn input[type=radio]:checked + label {
+  background: #5454D4;
+  color: #FFFFFF;
+}
+.main-sale__radio-btn label {
+  display: inline-block;
+  cursor: pointer;
+  line-height: 52px;
+  border-right: none;
+  user-select: none;
+  background: #F7F7FB;
+  width: 160px;
+  height: 55px;
+  color: #19191B;
+  text-align: center;
+}
+.main-sale__radio-btn .btn-item__year {
+  border-radius: 10px 0 0 10px;
+}
+.main-sale__radio-btn .btn-item__month {
+  border-radius: 0 10px 10px 0;
+}
+.main-sale__radio-btn .radio-btn-item {
+  display: inline-block;
+  float: left;
+}
+.main-sale__tariffs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.main-sale__tariffs .tarriffs-block {
+  width: 330px;
+  height: 441px;
+  background: #F8F8F8;
+  border-radius: 10px;
+  transition: all ease 0.7s;
+}
+.main-sale__tariffs .tarriffs-block__text {
+  width: 160px;
+  height: 150px;
+  margin-top: 28px;
+  display: inline-block;
+}
+.main-sale__tariffs .tarriffs-block__text:hover {
+  color: #fff;
+}
+.main-sale__tariffs .tarriffs-block__description {
+  margin-top: 34px;
+  margin-bottom: 22px;
+}
+.main-sale__tariffs .tarriffs-block__description:hover {
+  color: #fff;
+}
+.main-sale__tariffs .tarriffs-block__btn {
+  width: 285px;
+  height: 60px;
+  border: 1px solid #EAE9F2;
+  border-radius: 10px;
+  margin-top: 36px;
+  transition: all ease 0.7s;
+}
+.main-sale__tariffs .tarriffs-block:hover {
+  width: 376px;
+  height: 473px;
+  background: #FF7143;
+  transition: all ease 0.7s;
+}
+.main-sale__tariffs .tarriffs-block:hover button {
+  background: #9F3919;
+  color: #fff;
+  transition: all ease 0.7s;
+  border: none;
+}
+.main-sale__tariffs .tarriffs-block:hover p, .main-sale__tariffs .tarriffs-block:hover h2, .main-sale__tariffs .tarriffs-block:hover text {
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,59 @@
+@import 'variables';
+
+@mixin fonts() {
+    &__title {
+        font-family: DMSans;
+        color: $primaryText;
+    }
+
+    &__text {
+        font-family: Mulish;
+        color: $secondaryText;
+    }
+
+    &__description {
+        font-family: DMSans;
+        color: $secondaryText;
+    }
+}
+
+@mixin font-size() {
+
+    h1 {
+        font-size: 80px;
+        line-height: 77px;
+    }
+
+    h2 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    &__description {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    &__text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@mixin font-text-button() {
+    &__GS {
+        font-family: DMSans;
+        color: $whitePrimaryText;
+        font-size: 17px;
+    }
+
+    &__btn {
+        font-family: DMSans;
+        color: $blueColor;
+        font-size: 17px;
+    }
+
+    &__radio-btn {
+        font-family: DMSans;
+    }
+}

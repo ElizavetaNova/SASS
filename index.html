@@ -5,22 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic app</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/headerScreen.css">
-    <link rel="stylesheet" href="styles/main-landing.css">
-    <link rel="stylesheet" href="styles/main-partners.css">
-    <link rel="stylesheet" href="styles/main-block.css">
-    <link rel="stylesheet" href="styles/main-facilities.css">
-    <link rel="stylesheet" href="styles/main-sale.css">
+    <link href="styles/public/style.css" rel="stylesheet">
 </head>
 <body>    
     <main class="main">
-        <section class="main__langing main-landing">
+        <section class="main__landing main-landing">
             <div class="main-landing__wrapper">
                 <h1 class="main-landing__title">
                     Grow your subscription business
                 </h1>
-                <p class="main-landing__text">
+                <p class="main-landing__text main-landing--text">
                     Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.
                 </p>
                 <span class="main-landing__buttons landing-buttons">
@@ -44,28 +38,28 @@
                 <h2 class="main-sale__title">
                     Get the right plan for future product.
                 </h2>
-                <div class="main-sale__radio-btn">
-                    <div class="radio-btn-item">
+                <div class="main-sale__radio-btn radio-btn">
+                    <div class="radio-btn-item btn-item">
                         <input id="radio-btnYear" type="radio" value="1" name="radio" checked>
-                        <label for="radio-btnYear">Yearly</label>
+                        <label class="btn-item__year" for="radio-btnYear">Yearly</label>
                     </div>
                     
-                    <div class="radio-btn-item">
+                    <div class="radio-btn-item btn-item">
                         <input id="radio-btnMonth" type="radio" value="2" name="radio">
-                        <label for="radio-btnMonth">Monthly</label>
+                        <label class="btn-item__month" for="radio-btnMonth">Monthly</label>
                     </div>
                     
                 </div>
             </div>
             <div class="main-sale__tariffs">
                 <div class="tarriffs-block">
-                    <p class="tarriffs-block__text">
+                    <p class="tarriffs-block__description">
                         Starter
                     </p>
-                    <h3 class="tarriffs-block__title">
+                    <h2 class="tarriffs-block__title">
                         Free
-                    </h3>
-                    <div class="tarriffs-block__description">
+                    </h2>
+                    <div class="tarriffs-block__text">
                         <p>
                             1 Websit
                         </p>
@@ -81,13 +75,13 @@
                         </button>
                 </div>
                     <div class="tarriffs-block">
-                        <p class="tarriffs-block__text">
+                        <p class="tarriffs-block__description">
                             Premium
                         </p>
-                        <h3 class="tarriffs-block__title">
+                        <h2 class="tarriffs-block__title">
                             $29<text class="tarriffs-block__title-text">/month</text>
-                        </h3>
-                        <div class="tarriffs-block__description">
+                        </h2>
+                        <div class="tarriffs-block__text">
                             <p>
                                 10 Website
                             </p>
@@ -103,13 +97,13 @@
                         </button>
                     </div>
                     <div class="tarriffs-block">
-                        <p class="tarriffs-block__text">
+                        <p class="tarriffs-block__description">
                             Enterprise
                         </p>
-                        <h3 class="tarriffs-block__title">
+                        <h2 class="tarriffs-block__title">
                             $49<text class="tarriffs-block__title-text">/month</text>
-                        </h3>
-                        <div class="tarriffs-block__description">
+                        </h2>
+                        <div class="tarriffs-block__text">
                             <p>
                                 Unlimited Website
                             </p>
