@@ -1,37 +1,36 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 .main-landing {
-    @include fonts;
-    @include font-size;
+  @include fonts;
+  @include font-size;
 }
 
 .landing-buttons {
-    @include font-text-button;
+  @include font-text-button;
 }
 
-.main-sale{
+.main-sale {
+  @include fonts;
+  @include font-size;
+  @include font-text-button;
+
+  .tarriffs-block {
     @include fonts;
+    @include font-text-button;
     @include font-size;
-    @include font-text-button;   
 
-
-    .tarriffs-block {
-        @include fonts;
-        @include font-text-button;
-        @include font-size;
-
-        &__text {
-            font-size: 17px;
-            line-height: 50px;
-        }
-
-        &__title-text {
-            font-size: 30px;
-        }
-
-        h2 {
-            line-height: 56px;
-        }
+    &__text {
+      font-size: 17px;
+      line-height: 50px;
     }
+
+    &__title-text {
+      font-size: 30px;
+    }
+
+    h2 {
+      line-height: 56px;
+    }
+  }
 }

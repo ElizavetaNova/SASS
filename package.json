@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch styles/scss/index.scss:styles/public/style.css"
+    "sass": "sass --watch styles/scss/index.scss:styles/public/style.css",
+    "stylelint": "npx stylelint styles/scss/*.scss",
+    "eslint": "npx eslint **.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,13 @@
   "homepage": "https://github.com/ElizavetaNova/SASS#readme",
   "dependencies": {
     "sass": "^1.52.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "stylelint": "^14.9.1",
+    "stylelint-config-standard": "^26.0.0",
+    "stylelint-config-standard-scss": "^4.0.0"
   }
 }

@@ -116,7 +116,7 @@ h6 {
 }
 .main-landing__title {
   font-family: DMSans;
-  color: #19191B;
+  color: #19191b;
 }
 .main-landing__text {
   font-family: Mulish;
@@ -180,7 +180,7 @@ h6 {
 }
 .landing-buttons__btn {
   font-family: DMSans;
-  color: #5454D4;
+  color: #5454d4;
   font-size: 17px;
 }
 .landing-buttons__radio-btn {
@@ -189,7 +189,7 @@ h6 {
 
 .main-sale__title {
   font-family: DMSans;
-  color: #19191B;
+  color: #19191b;
 }
 .main-sale__text {
   font-family: Mulish;
@@ -252,7 +252,7 @@ h6 {
 }
 .main-sale__btn {
   font-family: DMSans;
-  color: #5454D4;
+  color: #5454d4;
   font-size: 17px;
 }
 .main-sale__radio-btn {
@@ -260,7 +260,7 @@ h6 {
 }
 .main-sale .tarriffs-block__title {
   font-family: DMSans;
-  color: #19191B;
+  color: #19191b;
 }
 .main-sale .tarriffs-block__text {
   font-family: Mulish;
@@ -277,7 +277,7 @@ h6 {
 }
 .main-sale .tarriffs-block__btn {
   font-family: DMSans;
-  color: #5454D4;
+  color: #5454d4;
   font-size: 17px;
 }
 .main-sale .tarriffs-block__radio-btn {
@@ -366,7 +366,7 @@ h6 {
 }
 .main-landing__title {
   font-family: DMSans;
-  color: #19191B;
+  color: #19191b;
 }
 .main-landing__text {
   font-family: Mulish;
@@ -430,7 +430,7 @@ h6 {
 }
 .landing-buttons__btn {
   font-family: DMSans;
-  color: #5454D4;
+  color: #5454d4;
   font-size: 17px;
 }
 .landing-buttons__radio-btn {
@@ -439,7 +439,7 @@ h6 {
 
 .main-sale__title {
   font-family: DMSans;
-  color: #19191B;
+  color: #19191b;
 }
 .main-sale__text {
   font-family: Mulish;
@@ -502,7 +502,7 @@ h6 {
 }
 .main-sale__btn {
   font-family: DMSans;
-  color: #5454D4;
+  color: #5454d4;
   font-size: 17px;
 }
 .main-sale__radio-btn {
@@ -510,7 +510,7 @@ h6 {
 }
 .main-sale .tarriffs-block__title {
   font-family: DMSans;
-  color: #19191B;
+  color: #19191b;
 }
 .main-sale .tarriffs-block__text {
   font-family: Mulish;
@@ -527,7 +527,7 @@ h6 {
 }
 .main-sale .tarriffs-block__btn {
   font-family: DMSans;
-  color: #5454D4;
+  color: #5454d4;
   font-size: 17px;
 }
 .main-sale .tarriffs-block__radio-btn {
@@ -600,7 +600,7 @@ h6 {
   .main-landing {
     flex-direction: column;
   }
-  .main-landing .main-landing__wrapper {
+  .main-landing__wrapper {
     order: 2;
     width: 100%;
     text-align: center;
@@ -661,7 +661,7 @@ h6 {
 .main-landing .landing-buttons__GS {
   margin-right: 40px;
   border-radius: 10px;
-  background: #5454D4;
+  background: #5454d4;
   width: 211px;
   height: 60px;
 }
@@ -678,11 +678,11 @@ h6 {
   width: 60px;
   height: 60px;
   background: #fff;
-  border: 1px solid #E7E7E7;
+  border: 1px solid #e7e7e7;
   border-radius: 60px;
 }
 .main-landing .landing-buttons__arrow:hover {
-  border: 2px solid #19191B;
+  border: 2px solid #19191b;
 }
 @media screen and (max-width: 500px) {
   .main-landing .landing-buttons__arrow {
@@ -746,29 +746,29 @@ h6 {
     width: 45%;
   }
 }
-.main-sale__radio-btn input[type=radio] {
-  display: none;
-}
-.main-sale__radio-btn input[type=radio]:checked + label {
-  background: #5454D4;
-  color: #FFFFFF;
-}
 .main-sale__radio-btn label {
   display: inline-block;
   cursor: pointer;
   line-height: 52px;
   border-right: none;
   user-select: none;
-  background: #F7F7FB;
+  background: #f7f7fb;
   width: 160px;
   height: 55px;
-  color: #19191B;
+  color: #19191b;
   text-align: center;
 }
 @media screen and (max-width: 1270px) {
   .main-sale__radio-btn label {
     width: 100%;
   }
+}
+.main-sale__radio-btn input[type=radio] {
+  display: none;
+}
+.main-sale__radio-btn input[type=radio]:checked + label {
+  background: #5454d4;
+  color: #fff;
 }
 .main-sale__radio-btn .btn-item__year {
   border-radius: 10px 0 0 10px;
@@ -800,7 +800,7 @@ h6 {
 .main-sale__tariffs .tarriffs-block {
   width: 330px;
   height: 441px;
-  background: #F8F8F8;
+  background: #f8f8f8;
   border-radius: 10px;
   transition: all ease 0.7s;
 }
@@ -823,7 +823,7 @@ h6 {
 .main-sale__tariffs .tarriffs-block__btn {
   width: 285px;
   height: 60px;
-  border: 1px solid #EAE9F2;
+  border: 1px solid #eae9f2;
   border-radius: 10px;
   margin-top: 36px;
   transition: all ease 0.7s;
@@ -841,7 +841,7 @@ h6 {
 .main-sale__tariffs .tarriffs-block:hover {
   width: 376px;
   height: 473px;
-  background: #FF7143;
+  background: #ff7143;
   transition: all ease 0.7s;
 }
 @media screen and (max-width: 1250px) {
@@ -861,12 +861,14 @@ h6 {
   }
 }
 .main-sale__tariffs .tarriffs-block:hover button {
-  background: #9F3919;
+  background: #9f3919;
   color: #fff;
   transition: all ease 0.7s;
   border: none;
 }
-.main-sale__tariffs .tarriffs-block:hover p, .main-sale__tariffs .tarriffs-block:hover h2, .main-sale__tariffs .tarriffs-block:hover text {
+.main-sale__tariffs .tarriffs-block:hover p,
+.main-sale__tariffs .tarriffs-block:hover h2,
+.main-sale__tariffs .tarriffs-block:hover text {
   color: #fff;
 }
 @media screen and (max-width: 1250px) {

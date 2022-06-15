@@ -1,90 +1,89 @@
-@import 'variables';
+@import "variables";
 
 @mixin fonts() {
-    &__title {
-        font-family: DMSans;
-        color: $primaryText;
-    }
+  &__title {
+    font-family: DMSans;
+    color: $primaryText;
+  }
 
-    &__text {
-        font-family: Mulish;
-        color: $secondaryText;
-    }
+  &__text {
+    font-family: Mulish;
+    color: $secondaryText;
+  }
 
-    &__description {
-        font-family: DMSans;
-        color: $secondaryText;
-    }
+  &__description {
+    font-family: DMSans;
+    color: $secondaryText;
+  }
 }
 
 @mixin font-size() {
+  h1 {
+    font-size: 80px;
+    line-height: 77px;
 
-    h1 {
-        font-size: 80px;
-        line-height: 77px;
-
-        @include max-width(760) {
-            font-size: 80px * 0.85;
-            line-height: 77px * 0.85;
-        }
-
-        @include max-width(600) {
-            font-size: 80px * 0.7;
-            line-height: 77px * 0.7;
-        }
+    @include max-width(760) {
+      font-size: 80px * 0.85;
+      line-height: 77px * 0.85;
     }
 
-    h2 {
-        font-size: 60px;
-        line-height: 70px;
+    @include max-width(600) {
+      font-size: 80px * 0.7;
+      line-height: 77px * 0.7;
+    }
+  }
 
-        @include max-width(760) {
-            font-size: 60px * 0.85;
-            line-height: 70px * 0.85;
-        }
+  h2 {
+    font-size: 60px;
+    line-height: 70px;
 
-        @include max-width(600) {
-            font-size: 60px * 0.7;
-            line-height: 70px * 0.7;
-        }
+    @include max-width(760) {
+      font-size: 60px * 0.85;
+      line-height: 70px * 0.85;
     }
 
-    &__description {
-        font-size: 18px;
-        line-height: 28px;
+    @include max-width(600) {
+      font-size: 60px * 0.7;
+      line-height: 70px * 0.7;
     }
+  }
 
-    &__text {
-        font-size: 20px;
-        line-height: 30px;
+  &__description {
+    font-size: 18px;
+    line-height: 28px;
+  }
 
-        @include max-width(600) {
-            font-size: 20px * 0.8;
-            line-height: 30px * 0.8;
-        }
+  &__text {
+    font-size: 20px;
+    line-height: 30px;
+
+    @include max-width(600) {
+      font-size: 20px * 0.8;
+      line-height: 30px * 0.8;
     }
+  }
 }
 
 @mixin font-text-button() {
-    &__GS {
-        font-family: DMSans;
-        color: $whitePrimaryText;
-        font-size: 17px;
-    }
+  &__GS {
+    font-family: DMSans;
+    color: $whitePrimaryText;
+    font-size: 17px;
+  }
 
-    &__btn {
-        font-family: DMSans;
-        color: $blueColor;
-        font-size: 17px;
-    }
+  &__btn {
+    font-family: DMSans;
+    color: $blueColor;
+    font-size: 17px;
+  }
 
-    &__radio-btn {
-        font-family: DMSans;
-    }
+  &__radio-btn {
+    font-family: DMSans;
+  }
 }
 
 @mixin max-width($resolution) {
-    @media screen and (max-width: #{$resolution}px) {
-        @content;
-    }
+  @media screen and (max-width: #{$resolution}px) {
+    @content;
+  }
 }
