@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixins';
 
 .main-sale {
     &__abstract {
@@ -6,17 +7,37 @@
         justify-content: space-around;
         align-items: center;
         margin-bottom: 100px;
+
+        @include max-width(1100) {
+            flex-direction: column;
+        }
     }
 
     &__title {
         width: 523px;
         height: 140px;
         margin-right: 250px;
+
+        @include max-width(1270) {
+            width: 70%;
+        }
+
+        @include max-width(1100) {
+            width: 100%;
+            text-align: center;
+            height: 100%;
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
     }
 
     &__radio-btn {
         display: inline;
         overflow: hidden;
+
+        @include max-width(1270) {
+            width: 45%;
+        }
 
         input[type=radio] {
             display: none;
@@ -38,6 +59,10 @@
             height: 55px;
             color: #19191B;
             text-align: center;
+
+            @include max-width(1270) {
+                width: 100%;
+            }
         }
 
         .btn-item {
@@ -53,6 +78,10 @@
         .radio-btn-item {
             display: inline-block;
             float: left;
+
+            @include max-width(1270) {
+                width: 50%;
+            }
         }
     }
 
@@ -61,6 +90,11 @@
         justify-content: space-evenly;
         align-items: center;
         text-align: center;
+
+        @include max-width(1100) {
+            flex-direction: column;
+            margin-top: 100px;
+        }
 
         .tarriffs-block {
             width: 330px;
@@ -97,7 +131,13 @@
                 margin-top: 36px;
                 transition: $default-transition;
 
-                
+                @include max-width(1250) {
+                    width: 60%;
+                }
+
+                @include max-width(1100) {
+                    width: 70%;
+                }
             }
 
             &:hover {
@@ -106,6 +146,19 @@
                 background: $accent-hover;
                 transition: $default-transition;
 
+                @include max-width(1250) {
+                    width: 40%;
+                }
+
+                @include max-width(1100) {
+                    width: 60%;
+                    margin: 20px;
+                }
+
+                @include max-width(850) {
+                    width: 80%;
+                }
+
                 button {
                     background: $accent-hover-button;
                     color: $whitePrimaryText;
@@ -113,9 +166,22 @@
                     border: none;
                 }
 
-                p, h2, text{
+                p, h2, text {
                     color: $whitePrimaryText;
                 }
+            }
+
+            @include max-width(1250) {
+                width: 30%;
+            }
+
+            @include max-width(1100) {
+                width: 50%;
+                margin: 20px;
+            }
+
+            @include max-width(850) {
+                width: 70%;
             }
         }
     }

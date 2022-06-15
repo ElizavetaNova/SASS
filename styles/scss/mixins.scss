@@ -22,11 +22,31 @@
     h1 {
         font-size: 80px;
         line-height: 77px;
+
+        @include max-width(760) {
+            font-size: 80px * 0.85;
+            line-height: 77px * 0.85;
+        }
+
+        @include max-width(600) {
+            font-size: 80px * 0.7;
+            line-height: 77px * 0.7;
+        }
     }
 
     h2 {
         font-size: 60px;
         line-height: 70px;
+
+        @include max-width(760) {
+            font-size: 60px * 0.85;
+            line-height: 70px * 0.85;
+        }
+
+        @include max-width(600) {
+            font-size: 60px * 0.7;
+            line-height: 70px * 0.7;
+        }
     }
 
     &__description {
@@ -37,6 +57,11 @@
     &__text {
         font-size: 20px;
         line-height: 30px;
+
+        @include max-width(600) {
+            font-size: 20px * 0.8;
+            line-height: 30px * 0.8;
+        }
     }
 }
 
@@ -55,5 +80,11 @@
 
     &__radio-btn {
         font-family: DMSans;
+    }
+}
+
+@mixin max-width($resolution) {
+    @media screen and (max-width: #{$resolution}px) {
+        @content;
     }
 }

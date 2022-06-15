@@ -130,9 +130,33 @@ h6 {
   font-size: 80px;
   line-height: 77px;
 }
+@media screen and (max-width: 760px) {
+  .main-landing h1 {
+    font-size: 68px;
+    line-height: 65.45px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-landing h1 {
+    font-size: 56px;
+    line-height: 53.9px;
+  }
+}
 .main-landing h2 {
   font-size: 60px;
   line-height: 70px;
+}
+@media screen and (max-width: 760px) {
+  .main-landing h2 {
+    font-size: 51px;
+    line-height: 59.5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-landing h2 {
+    font-size: 42px;
+    line-height: 49px;
+  }
 }
 .main-landing__description {
   font-size: 18px;
@@ -141,6 +165,12 @@ h6 {
 .main-landing__text {
   font-size: 20px;
   line-height: 30px;
+}
+@media screen and (max-width: 600px) {
+  .main-landing__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 .landing-buttons__GS {
@@ -173,9 +203,33 @@ h6 {
   font-size: 80px;
   line-height: 77px;
 }
+@media screen and (max-width: 760px) {
+  .main-sale h1 {
+    font-size: 68px;
+    line-height: 65.45px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-sale h1 {
+    font-size: 56px;
+    line-height: 53.9px;
+  }
+}
 .main-sale h2 {
   font-size: 60px;
   line-height: 70px;
+}
+@media screen and (max-width: 760px) {
+  .main-sale h2 {
+    font-size: 51px;
+    line-height: 59.5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-sale h2 {
+    font-size: 42px;
+    line-height: 49px;
+  }
 }
 .main-sale__description {
   font-size: 18px;
@@ -184,6 +238,12 @@ h6 {
 .main-sale__text {
   font-size: 20px;
   line-height: 30px;
+}
+@media screen and (max-width: 600px) {
+  .main-sale__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 .main-sale__GS {
   font-family: DMSans;
@@ -227,9 +287,33 @@ h6 {
   font-size: 80px;
   line-height: 77px;
 }
+@media screen and (max-width: 760px) {
+  .main-sale .tarriffs-block h1 {
+    font-size: 68px;
+    line-height: 65.45px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-sale .tarriffs-block h1 {
+    font-size: 56px;
+    line-height: 53.9px;
+  }
+}
 .main-sale .tarriffs-block h2 {
   font-size: 60px;
   line-height: 70px;
+}
+@media screen and (max-width: 760px) {
+  .main-sale .tarriffs-block h2 {
+    font-size: 51px;
+    line-height: 59.5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-sale .tarriffs-block h2 {
+    font-size: 42px;
+    line-height: 49px;
+  }
 }
 .main-sale .tarriffs-block__description {
   font-size: 18px;
@@ -238,6 +322,12 @@ h6 {
 .main-sale .tarriffs-block__text {
   font-size: 20px;
   line-height: 30px;
+}
+@media screen and (max-width: 600px) {
+  .main-sale .tarriffs-block__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 .main-sale .tarriffs-block__text {
   font-size: 17px;
@@ -290,9 +380,33 @@ h6 {
   font-size: 80px;
   line-height: 77px;
 }
+@media screen and (max-width: 760px) {
+  .main-landing h1 {
+    font-size: 68px;
+    line-height: 65.45px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-landing h1 {
+    font-size: 56px;
+    line-height: 53.9px;
+  }
+}
 .main-landing h2 {
   font-size: 60px;
   line-height: 70px;
+}
+@media screen and (max-width: 760px) {
+  .main-landing h2 {
+    font-size: 51px;
+    line-height: 59.5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-landing h2 {
+    font-size: 42px;
+    line-height: 49px;
+  }
 }
 .main-landing__description {
   font-size: 18px;
@@ -301,6 +415,12 @@ h6 {
 .main-landing__text {
   font-size: 20px;
   line-height: 30px;
+}
+@media screen and (max-width: 600px) {
+  .main-landing__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 .landing-buttons__GS {
@@ -333,9 +453,33 @@ h6 {
   font-size: 80px;
   line-height: 77px;
 }
+@media screen and (max-width: 760px) {
+  .main-sale h1 {
+    font-size: 68px;
+    line-height: 65.45px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-sale h1 {
+    font-size: 56px;
+    line-height: 53.9px;
+  }
+}
 .main-sale h2 {
   font-size: 60px;
   line-height: 70px;
+}
+@media screen and (max-width: 760px) {
+  .main-sale h2 {
+    font-size: 51px;
+    line-height: 59.5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-sale h2 {
+    font-size: 42px;
+    line-height: 49px;
+  }
 }
 .main-sale__description {
   font-size: 18px;
@@ -344,6 +488,12 @@ h6 {
 .main-sale__text {
   font-size: 20px;
   line-height: 30px;
+}
+@media screen and (max-width: 600px) {
+  .main-sale__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 .main-sale__GS {
   font-family: DMSans;
@@ -387,9 +537,33 @@ h6 {
   font-size: 80px;
   line-height: 77px;
 }
+@media screen and (max-width: 760px) {
+  .main-sale .tarriffs-block h1 {
+    font-size: 68px;
+    line-height: 65.45px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-sale .tarriffs-block h1 {
+    font-size: 56px;
+    line-height: 53.9px;
+  }
+}
 .main-sale .tarriffs-block h2 {
   font-size: 60px;
   line-height: 70px;
+}
+@media screen and (max-width: 760px) {
+  .main-sale .tarriffs-block h2 {
+    font-size: 51px;
+    line-height: 59.5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-sale .tarriffs-block h2 {
+    font-size: 42px;
+    line-height: 49px;
+  }
 }
 .main-sale .tarriffs-block__description {
   font-size: 18px;
@@ -398,6 +572,12 @@ h6 {
 .main-sale .tarriffs-block__text {
   font-size: 20px;
   line-height: 30px;
+}
+@media screen and (max-width: 600px) {
+  .main-sale .tarriffs-block__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 .main-sale .tarriffs-block__text {
   font-size: 17px;
@@ -416,24 +596,67 @@ h6 {
   align-items: center;
   margin: 60px 0;
 }
+@media screen and (max-width: 1100px) {
+  .main-landing {
+    flex-direction: column;
+  }
+  .main-landing .main-landing__wrapper {
+    order: 2;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .main-landing__img {
   height: 644px;
   width: 580px;
+}
+@media screen and (max-width: 1180px) {
+  .main-landing__img {
+    height: 50%;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .main-landing__img {
+    width: 70%;
+    order: 1;
+  }
 }
 .main-landing__title {
   width: 462px;
   height: 231px;
   margin-bottom: 30px;
 }
+@media screen and (max-width: 600px) {
+  .main-landing__title {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+}
 .main-landing__text {
   width: 462px;
   height: 90px;
   margin-bottom: 50px;
 }
+@media screen and (max-width: 600px) {
+  .main-landing__text {
+    width: 100%;
+    height: 100%;
+  }
+}
 .main-landing__buttons {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+@media screen and (max-width: 500px) {
+  .main-landing__buttons {
+    justify-content: space-around;
+  }
 }
 .main-landing .landing-buttons__GS {
   margin-right: 40px;
@@ -446,6 +669,11 @@ h6 {
   transform: all ease 0.7s;
   background: #6f0ece;
 }
+@media screen and (max-width: 500px) {
+  .main-landing .landing-buttons__GS {
+    width: 150px;
+  }
+}
 .main-landing .landing-buttons__arrow {
   width: 60px;
   height: 60px;
@@ -456,7 +684,21 @@ h6 {
 .main-landing .landing-buttons__arrow:hover {
   border: 2px solid #19191B;
 }
+@media screen and (max-width: 500px) {
+  .main-landing .landing-buttons__arrow {
+    width: 50px;
+    height: 50px;
+  }
+}
 
+@font-face {
+  font-family: Mulish;
+  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: DMSans;
+  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+}
 @font-face {
   font-family: Mulish;
   src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
@@ -471,14 +713,38 @@ h6 {
   align-items: center;
   margin-bottom: 100px;
 }
+@media screen and (max-width: 1100px) {
+  .main-sale__abstract {
+    flex-direction: column;
+  }
+}
 .main-sale__title {
   width: 523px;
   height: 140px;
   margin-right: 250px;
 }
+@media screen and (max-width: 1270px) {
+  .main-sale__title {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .main-sale__title {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
 .main-sale__radio-btn {
   display: inline;
   overflow: hidden;
+}
+@media screen and (max-width: 1270px) {
+  .main-sale__radio-btn {
+    width: 45%;
+  }
 }
 .main-sale__radio-btn input[type=radio] {
   display: none;
@@ -499,6 +765,11 @@ h6 {
   color: #19191B;
   text-align: center;
 }
+@media screen and (max-width: 1270px) {
+  .main-sale__radio-btn label {
+    width: 100%;
+  }
+}
 .main-sale__radio-btn .btn-item__year {
   border-radius: 10px 0 0 10px;
 }
@@ -509,11 +780,22 @@ h6 {
   display: inline-block;
   float: left;
 }
+@media screen and (max-width: 1270px) {
+  .main-sale__radio-btn .radio-btn-item {
+    width: 50%;
+  }
+}
 .main-sale__tariffs {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+}
+@media screen and (max-width: 1100px) {
+  .main-sale__tariffs {
+    flex-direction: column;
+    margin-top: 100px;
+  }
 }
 .main-sale__tariffs .tarriffs-block {
   width: 330px;
@@ -546,11 +828,37 @@ h6 {
   margin-top: 36px;
   transition: all ease 0.7s;
 }
+@media screen and (max-width: 1250px) {
+  .main-sale__tariffs .tarriffs-block__btn {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .main-sale__tariffs .tarriffs-block__btn {
+    width: 70%;
+  }
+}
 .main-sale__tariffs .tarriffs-block:hover {
   width: 376px;
   height: 473px;
   background: #FF7143;
   transition: all ease 0.7s;
+}
+@media screen and (max-width: 1250px) {
+  .main-sale__tariffs .tarriffs-block:hover {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .main-sale__tariffs .tarriffs-block:hover {
+    width: 60%;
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .main-sale__tariffs .tarriffs-block:hover {
+    width: 80%;
+  }
 }
 .main-sale__tariffs .tarriffs-block:hover button {
   background: #9F3919;
@@ -560,6 +868,22 @@ h6 {
 }
 .main-sale__tariffs .tarriffs-block:hover p, .main-sale__tariffs .tarriffs-block:hover h2, .main-sale__tariffs .tarriffs-block:hover text {
   color: #fff;
+}
+@media screen and (max-width: 1250px) {
+  .main-sale__tariffs .tarriffs-block {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .main-sale__tariffs .tarriffs-block {
+    width: 50%;
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .main-sale__tariffs .tarriffs-block {
+    width: 70%;
+  }
 }
 
 * {
