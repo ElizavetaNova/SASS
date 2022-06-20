@@ -45,8 +45,6 @@
     }
   }
 
-
-
   &__text {
     @include max-width(600) {
       font-size: $fontSize * 0.8;

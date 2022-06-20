@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --watch styles/scss/index.scss:styles/public/style.css",
     "stylelint": "npx stylelint styles/scss/*.scss",
-    "stylelint:fix": "stylelint **/*{.css,.scss} --fix",
+    "stylelint:fix": "stylelint styles/scss/*.scss --fix",
     "eslint": "npx eslint **.js"
   },
   "repository": {
