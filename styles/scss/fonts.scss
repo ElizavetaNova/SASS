@@ -29,20 +29,22 @@
     @include fonts;
     @include font-text-button;
 
+    .price {
+      &__title {
+        @include font-size(60px, 56px);
+      }
+
+      &__text {
+        @include font-size(30px, 56px);
+      }
+    }
+
     &__description {
       @include font-size(18px, 28px);
     }
 
-    &__title {
-      @include font-size(60px, 56px);
-    }
-
     &__text {
       @include font-size(17px, 50px);
-    }
-
-    &__title-text {
-      @include font-size(30px, 56px);
     }
   }
 }

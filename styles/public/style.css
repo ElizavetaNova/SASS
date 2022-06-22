@@ -301,6 +301,74 @@ h6 {
 .main-sale .tarriffs-block__radio-btn {
   font-family: DMSans, serif;
 }
+.main-sale .tarriffs-block .price__title {
+  font-size: 60px;
+  line-height: 56px;
+}
+@media screen and (max-width: 760px) {
+  .main-sale .tarriffs-block .price__title h1 {
+    font-size: 51px;
+    line-height: 47.6px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-sale .tarriffs-block .price__title h1 {
+    font-size: 42px;
+    line-height: 39.2px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .main-sale .tarriffs-block .price__title h2 {
+    font-size: 51px;
+    line-height: 47.6px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-sale .tarriffs-block .price__title h2 {
+    font-size: 42px;
+    line-height: 39.2px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-sale .tarriffs-block .price__title__text {
+    font-size: 48px;
+    line-height: 44.8px;
+  }
+}
+.main-sale .tarriffs-block .price__text {
+  font-size: 30px;
+  line-height: 56px;
+}
+@media screen and (max-width: 760px) {
+  .main-sale .tarriffs-block .price__text h1 {
+    font-size: 25.5px;
+    line-height: 47.6px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-sale .tarriffs-block .price__text h1 {
+    font-size: 21px;
+    line-height: 39.2px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .main-sale .tarriffs-block .price__text h2 {
+    font-size: 25.5px;
+    line-height: 47.6px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-sale .tarriffs-block .price__text h2 {
+    font-size: 21px;
+    line-height: 39.2px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-sale .tarriffs-block .price__text__text {
+    font-size: 24px;
+    line-height: 44.8px;
+  }
+}
 .main-sale .tarriffs-block__description {
   font-size: 18px;
   line-height: 28px;
@@ -335,40 +403,6 @@ h6 {
     line-height: 22.4px;
   }
 }
-.main-sale .tarriffs-block__title {
-  font-size: 60px;
-  line-height: 56px;
-}
-@media screen and (max-width: 760px) {
-  .main-sale .tarriffs-block__title h1 {
-    font-size: 51px;
-    line-height: 47.6px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__title h1 {
-    font-size: 42px;
-    line-height: 39.2px;
-  }
-}
-@media screen and (max-width: 760px) {
-  .main-sale .tarriffs-block__title h2 {
-    font-size: 51px;
-    line-height: 47.6px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__title h2 {
-    font-size: 42px;
-    line-height: 39.2px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__title__text {
-    font-size: 48px;
-    line-height: 44.8px;
-  }
-}
 .main-sale .tarriffs-block__text {
   font-size: 17px;
   line-height: 50px;
@@ -401,40 +435,6 @@ h6 {
   .main-sale .tarriffs-block__text__text {
     font-size: 13.6px;
     line-height: 40px;
-  }
-}
-.main-sale .tarriffs-block__title-text {
-  font-size: 30px;
-  line-height: 56px;
-}
-@media screen and (max-width: 760px) {
-  .main-sale .tarriffs-block__title-text h1 {
-    font-size: 25.5px;
-    line-height: 47.6px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__title-text h1 {
-    font-size: 21px;
-    line-height: 39.2px;
-  }
-}
-@media screen and (max-width: 760px) {
-  .main-sale .tarriffs-block__title-text h2 {
-    font-size: 25.5px;
-    line-height: 47.6px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__title-text h2 {
-    font-size: 21px;
-    line-height: 39.2px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__title-text__text {
-    font-size: 24px;
-    line-height: 44.8px;
   }
 }
 
@@ -675,6 +675,10 @@ h6 {
   background: #f8f8f8;
   border-radius: 10px;
   transition: all ease 0.7s;
+}
+.main-sale__tariffs .tarriffs-block .price {
+  display: flex;
+  justify-content: center;
 }
 .main-sale__tariffs .tarriffs-block__text {
   width: 160px;

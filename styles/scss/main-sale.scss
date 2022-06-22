@@ -103,6 +103,11 @@
       border-radius: $border-radius;
       transition: $default-transition;
 
+      .price {
+        display: flex;
+        justify-content: center;
+      }
+
       &__text {
         width: 160px;
         height: 150px;
