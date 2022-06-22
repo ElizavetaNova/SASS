@@ -2,18 +2,18 @@
 
 @mixin fonts() {
   &__title {
-    font-family: DMSans;
-    color: $primaryText;
+    font-family: DMSans, serif;
+    color: $primary-text;
   }
 
   &__text {
-    font-family: Mulish;
-    color: $secondaryText;
+    font-family: Mulish, serif;
+    color: $secondary-text;
   }
 
   &__description {
-    font-family: DMSans;
-    color: $secondaryText;
+    font-family: DMSans, serif;
+    color: $secondary-text;
   }
 }
 
@@ -51,19 +51,19 @@
 
 @mixin font-text-button() {
   &__primary {
-    font-family: DMSans;
-    color: $whitePrimaryText;
+    font-family: DMSans, serif;
+    color: $white-primary-text;
     font-size: 17px;
   }
 
   &__btn {
-    font-family: DMSans;
-    color: $blueColor;
+    font-family: DMSans, serif;
+    color: $blue-color;
     font-size: 17px;
   }
 
   &__radio-btn {
-    font-family: DMSans;
+    font-family: DMSans, serif;
   }
 }
 

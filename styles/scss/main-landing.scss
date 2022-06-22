@@ -1,5 +1,4 @@
 @import "variables";
-@import "fonts";
 @import "mixins";
 
 .main-landing {
@@ -73,7 +72,7 @@
     &__primary {
       margin-right: 40px;
       border-radius: $border-radius;
-      background: $blueColor;
+      background: $blue-color;
       width: 211px;
       height: 60px;
 
@@ -95,7 +94,7 @@
       border-radius: 60px;
 
       &:hover {
-        border: 2px solid $primaryText;
+        border: 2px solid $primary-text;
       }
 
       @include max-width(500) {

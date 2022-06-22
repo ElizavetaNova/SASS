@@ -84,46 +84,54 @@ h6 {
 
 @font-face {
   font-family: Mulish;
-  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+  src: url("../../fonts/Mulish/Mulish-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: DMSans;
-  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+  src: url("../../fonts/DM_Sans/DMSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: Mulish;
-  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+  src: url("../../fonts/Mulish/Mulish-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: DMSans;
-  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+  src: url("../../fonts/DM_Sans/DMSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: Mulish;
-  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+  src: url("../../fonts/Mulish/Mulish-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: DMSans;
-  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+  src: url("../../fonts/DM_Sans/DMSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: Mulish;
-  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+  src: url("../../fonts/Mulish/Mulish-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: DMSans;
-  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+  src: url("../../fonts/DM_Sans/DMSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 .main-landing__title {
-  font-family: DMSans;
+  font-family: DMSans, serif;
   color: #19191b;
 }
 .main-landing__text {
-  font-family: Mulish;
+  font-family: Mulish, serif;
   color: #696871;
 }
 .main-landing__description {
-  font-family: DMSans;
+  font-family: DMSans, serif;
   color: #696871;
 }
 .main-landing__title {
@@ -196,43 +204,43 @@ h6 {
 }
 
 .landing-buttons__primary {
-  font-family: DMSans;
+  font-family: DMSans, serif;
   color: #fff;
   font-size: 17px;
 }
 .landing-buttons__btn {
-  font-family: DMSans;
+  font-family: DMSans, serif;
   color: #5454d4;
   font-size: 17px;
 }
 .landing-buttons__radio-btn {
-  font-family: DMSans;
+  font-family: DMSans, serif;
 }
 
 .main-sale__title {
-  font-family: DMSans;
+  font-family: DMSans, serif;
   color: #19191b;
 }
 .main-sale__text {
-  font-family: Mulish;
+  font-family: Mulish, serif;
   color: #696871;
 }
 .main-sale__description {
-  font-family: DMSans;
+  font-family: DMSans, serif;
   color: #696871;
 }
 .main-sale__primary {
-  font-family: DMSans;
+  font-family: DMSans, serif;
   color: #fff;
   font-size: 17px;
 }
 .main-sale__btn {
-  font-family: DMSans;
+  font-family: DMSans, serif;
   color: #5454d4;
   font-size: 17px;
 }
 .main-sale__radio-btn {
-  font-family: DMSans;
+  font-family: DMSans, serif;
 }
 .main-sale__title {
   font-size: 60px;
@@ -269,29 +277,29 @@ h6 {
   }
 }
 .main-sale .tarriffs-block__title {
-  font-family: DMSans;
+  font-family: DMSans, serif;
   color: #19191b;
 }
 .main-sale .tarriffs-block__text {
-  font-family: Mulish;
+  font-family: Mulish, serif;
   color: #696871;
 }
 .main-sale .tarriffs-block__description {
-  font-family: DMSans;
+  font-family: DMSans, serif;
   color: #696871;
 }
 .main-sale .tarriffs-block__primary {
-  font-family: DMSans;
+  font-family: DMSans, serif;
   color: #fff;
   font-size: 17px;
 }
 .main-sale .tarriffs-block__btn {
-  font-family: DMSans;
+  font-family: DMSans, serif;
   color: #5454d4;
   font-size: 17px;
 }
 .main-sale .tarriffs-block__radio-btn {
-  font-family: DMSans;
+  font-family: DMSans, serif;
 }
 .main-sale .tarriffs-block__description {
   font-size: 18px;
@@ -432,351 +440,23 @@ h6 {
 
 @font-face {
   font-family: Mulish;
-  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+  src: url("../../fonts/Mulish/Mulish-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: DMSans;
-  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
-}
-@font-face {
-  font-family: Mulish;
-  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
-}
-@font-face {
-  font-family: DMSans;
-  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+  src: url("../../fonts/DM_Sans/DMSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: Mulish;
-  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+  src: url("../../fonts/Mulish/Mulish-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: DMSans;
-  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
-}
-.main-landing__title {
-  font-family: DMSans;
-  color: #19191b;
-}
-.main-landing__text {
-  font-family: Mulish;
-  color: #696871;
-}
-.main-landing__description {
-  font-family: DMSans;
-  color: #696871;
-}
-.main-landing__title {
-  font-size: 80px;
-  line-height: 77px;
-}
-@media screen and (max-width: 760px) {
-  .main-landing__title h1 {
-    font-size: 68px;
-    line-height: 65.45px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-landing__title h1 {
-    font-size: 56px;
-    line-height: 53.9px;
-  }
-}
-@media screen and (max-width: 760px) {
-  .main-landing__title h2 {
-    font-size: 68px;
-    line-height: 65.45px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-landing__title h2 {
-    font-size: 56px;
-    line-height: 53.9px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-landing__title__text {
-    font-size: 64px;
-    line-height: 61.6px;
-  }
-}
-.main-landing__text {
-  font-size: 20px;
-  line-height: 30px;
-}
-@media screen and (max-width: 760px) {
-  .main-landing__text h1 {
-    font-size: 17px;
-    line-height: 25.5px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-landing__text h1 {
-    font-size: 14px;
-    line-height: 21px;
-  }
-}
-@media screen and (max-width: 760px) {
-  .main-landing__text h2 {
-    font-size: 17px;
-    line-height: 25.5px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-landing__text h2 {
-    font-size: 14px;
-    line-height: 21px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-landing__text__text {
-    font-size: 16px;
-    line-height: 24px;
-  }
-}
-
-.landing-buttons__primary {
-  font-family: DMSans;
-  color: #fff;
-  font-size: 17px;
-}
-.landing-buttons__btn {
-  font-family: DMSans;
-  color: #5454d4;
-  font-size: 17px;
-}
-.landing-buttons__radio-btn {
-  font-family: DMSans;
-}
-
-.main-sale__title {
-  font-family: DMSans;
-  color: #19191b;
-}
-.main-sale__text {
-  font-family: Mulish;
-  color: #696871;
-}
-.main-sale__description {
-  font-family: DMSans;
-  color: #696871;
-}
-.main-sale__primary {
-  font-family: DMSans;
-  color: #fff;
-  font-size: 17px;
-}
-.main-sale__btn {
-  font-family: DMSans;
-  color: #5454d4;
-  font-size: 17px;
-}
-.main-sale__radio-btn {
-  font-family: DMSans;
-}
-.main-sale__title {
-  font-size: 60px;
-  line-height: 70px;
-}
-@media screen and (max-width: 760px) {
-  .main-sale__title h1 {
-    font-size: 51px;
-    line-height: 59.5px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale__title h1 {
-    font-size: 42px;
-    line-height: 49px;
-  }
-}
-@media screen and (max-width: 760px) {
-  .main-sale__title h2 {
-    font-size: 51px;
-    line-height: 59.5px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale__title h2 {
-    font-size: 42px;
-    line-height: 49px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale__title__text {
-    font-size: 48px;
-    line-height: 56px;
-  }
-}
-.main-sale .tarriffs-block__title {
-  font-family: DMSans;
-  color: #19191b;
-}
-.main-sale .tarriffs-block__text {
-  font-family: Mulish;
-  color: #696871;
-}
-.main-sale .tarriffs-block__description {
-  font-family: DMSans;
-  color: #696871;
-}
-.main-sale .tarriffs-block__primary {
-  font-family: DMSans;
-  color: #fff;
-  font-size: 17px;
-}
-.main-sale .tarriffs-block__btn {
-  font-family: DMSans;
-  color: #5454d4;
-  font-size: 17px;
-}
-.main-sale .tarriffs-block__radio-btn {
-  font-family: DMSans;
-}
-.main-sale .tarriffs-block__description {
-  font-size: 18px;
-  line-height: 28px;
-}
-@media screen and (max-width: 760px) {
-  .main-sale .tarriffs-block__description h1 {
-    font-size: 15.3px;
-    line-height: 23.8px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__description h1 {
-    font-size: 12.6px;
-    line-height: 19.6px;
-  }
-}
-@media screen and (max-width: 760px) {
-  .main-sale .tarriffs-block__description h2 {
-    font-size: 15.3px;
-    line-height: 23.8px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__description h2 {
-    font-size: 12.6px;
-    line-height: 19.6px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__description__text {
-    font-size: 14.4px;
-    line-height: 22.4px;
-  }
-}
-.main-sale .tarriffs-block__title {
-  font-size: 60px;
-  line-height: 56px;
-}
-@media screen and (max-width: 760px) {
-  .main-sale .tarriffs-block__title h1 {
-    font-size: 51px;
-    line-height: 47.6px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__title h1 {
-    font-size: 42px;
-    line-height: 39.2px;
-  }
-}
-@media screen and (max-width: 760px) {
-  .main-sale .tarriffs-block__title h2 {
-    font-size: 51px;
-    line-height: 47.6px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__title h2 {
-    font-size: 42px;
-    line-height: 39.2px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__title__text {
-    font-size: 48px;
-    line-height: 44.8px;
-  }
-}
-.main-sale .tarriffs-block__text {
-  font-size: 17px;
-  line-height: 50px;
-}
-@media screen and (max-width: 760px) {
-  .main-sale .tarriffs-block__text h1 {
-    font-size: 14.45px;
-    line-height: 42.5px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__text h1 {
-    font-size: 11.9px;
-    line-height: 35px;
-  }
-}
-@media screen and (max-width: 760px) {
-  .main-sale .tarriffs-block__text h2 {
-    font-size: 14.45px;
-    line-height: 42.5px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__text h2 {
-    font-size: 11.9px;
-    line-height: 35px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__text__text {
-    font-size: 13.6px;
-    line-height: 40px;
-  }
-}
-.main-sale .tarriffs-block__title-text {
-  font-size: 30px;
-  line-height: 56px;
-}
-@media screen and (max-width: 760px) {
-  .main-sale .tarriffs-block__title-text h1 {
-    font-size: 25.5px;
-    line-height: 47.6px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__title-text h1 {
-    font-size: 21px;
-    line-height: 39.2px;
-  }
-}
-@media screen and (max-width: 760px) {
-  .main-sale .tarriffs-block__title-text h2 {
-    font-size: 25.5px;
-    line-height: 47.6px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__title-text h2 {
-    font-size: 21px;
-    line-height: 39.2px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .main-sale .tarriffs-block__title-text__text {
-    font-size: 24px;
-    line-height: 44.8px;
-  }
-}
-
-@font-face {
-  font-family: Mulish;
-  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
-}
-@font-face {
-  font-family: DMSans;
-  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+  src: url("../../fonts/DM_Sans/DMSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 .main-landing {
   display: flex;
@@ -881,19 +561,23 @@ h6 {
 
 @font-face {
   font-family: Mulish;
-  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+  src: url("../../fonts/Mulish/Mulish-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: DMSans;
-  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+  src: url("../../fonts/DM_Sans/DMSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: Mulish;
-  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+  src: url("../../fonts/Mulish/Mulish-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: DMSans;
-  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+  src: url("../../fonts/DM_Sans/DMSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 .main-sale__abstract {
   display: flex;
@@ -1031,6 +715,7 @@ h6 {
   height: 473px;
   background: #ff7143;
   transition: all ease 0.7s;
+  cursor: pointer;
 }
 @media screen and (max-width: 1250px) {
   .main-sale__tariffs .tarriffs-block:hover {

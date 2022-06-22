@@ -1,9 +1,9 @@
 $white: #fff;
-$primaryText: #19191b;
-$secondaryText: #696871;
-$whitePrimaryText: $white;
-$whiteSecondaryText: rgb(255 255 255 / 70%);
-$blueColor: #5454d4;
+$primary-text: #19191b;
+$secondary-text: #696871;
+$white-primary-text: $white;
+$white-secondary-text: rgb(255 255 255 / 70%);
+$blue-color: #5454d4;
 $primary: #f8f8f8;
 $accent-hover: #ff7143;
 $accent-hover-button: #9f3919;
@@ -12,10 +12,12 @@ $default-transition: all ease 0.7s;
 
 @font-face {
   font-family: Mulish;
-  src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+  src: url("../../fonts/Mulish/Mulish-VariableFont_wght.ttf");
 }
 
 @font-face {
   font-family: DMSans;
-  src: url(../../fonts/DM_Sans/DMSans-Regular.ttf);
+  src: url("../../fonts/DM_Sans/DMSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
