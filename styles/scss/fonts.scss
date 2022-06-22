@@ -1,0 +1,50 @@
+@import "variables";
+@import "mixins";
+
+.main-landing {
+  @include fonts;
+
+  &__title {
+    @include font-size(80px, 77px);
+  }
+
+  &__text {
+    @include font-size(20px, 30px);
+  }
+}
+
+.landing-buttons {
+  @include font-text-button;
+}
+
+.main-sale {
+  @include fonts;
+  @include font-text-button;
+
+  &__title {
+    @include font-size(60px, 70px);
+  }
+
+  .tarriffs-block {
+    @include fonts;
+    @include font-text-button;
+
+    .price {
+      &__title {
+        @include font-size(60px, 56px);
+      }
+
+      &__text {
+        @include font-size(30px, 56px);
+      }
+    }
+
+    &__description {
+      @include font-size(18px, 28px);
+    }
+
+    &__text {
+      @include font-size(17px, 50px);
+    }
+  }
+}
